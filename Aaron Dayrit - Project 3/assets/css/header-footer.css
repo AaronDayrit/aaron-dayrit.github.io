@@ -1,0 +1,121 @@
+    
+    /*
+    --------------------------------------------------------
+        NAVIGATION BAR
+    --------------------------------------------------------
+    */
+
+
+
+    header li{
+    height: 100px;
+    display: inline;
+    color: white;
+    line-height: 50px;
+    margin-right: 20px;
+    letter-spacing: 0.8px;
+    font-weight: 550;
+    }
+
+    header li +li{
+    cursor: pointer;
+    }
+    
+    header a{
+    text-decoration: none;
+    color: white;
+    
+    
+    }
+    .home:hover{
+    background-color: #278232;
+    }
+    
+    header{
+    background-color: black;
+    height: 50px;
+    font-size: 12px;
+    
+    
+    overflow: hidden;
+    }
+    
+    nav{
+    width: 80%;
+    margin: 0 auto;
+    }
+    
+    .home{
+    background-color: #32a840;
+    padding: 6px 9px;
+    border-radius: 12px;
+    transition: 0.2s ease-in-out;
+    }
+    
+    .nav-right{
+    float: right;
+    }
+
+    .title{
+    font-size: 14px;
+    cursor: default;
+    }
+
+
+    
+    /*
+    --------------------------------------------------------
+        FOOTER SECTION
+    --------------------------------------------------------
+    */
+    
+    footer{
+    min-width: 100%;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    }
+    
+    footer div{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    }
+    
+    .footer-container{
+    width: 90%;
+    margin: 0 auto;
+    }
+    
+    .social-container ul{
+    line-height: 110px;
+    }
+    
+    .social-container ul li{
+    display: inline;
+    }
+    
+    .social-container ul li a{
+    color: white;
+    transition: all ease-in-out 0.2s;
+    }
+    
+    .social-container ul li a:hover{
+    color:#ed0000;
+    }
+    
+    .social-container ul li +li{
+    margin-left: 20px;
+    
+    }
+    
+    .fab{
+    font-size: 30px;
+    
+    }
+    
+    .copywrite-container{
+    line-height: 100px;
+    text-align: right;
+    
+    }

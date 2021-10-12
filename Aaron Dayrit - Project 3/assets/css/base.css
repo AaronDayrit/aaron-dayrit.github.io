@@ -1,0 +1,27 @@
+    *{
+    margin: 0;
+    padding: 0%;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    -webkit-transition-duration: 0;
+    transition-duration: 0;
+    }
+    
+    p, a, li, label, input, textarea, div, span{
+    font-family: 'Poppins', helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0;
+    }
+    
+    .container{
+    position: relative;
+    width: 75%;
+    max-width: 1080px;
+    margin: 0 auto;
+    
+    }

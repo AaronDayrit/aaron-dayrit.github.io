@@ -1,0 +1,141 @@
+    /*
+    --------------------------------------------------------
+        INITIAL LANDING SCREEN OF PAGE
+    --------------------------------------------------------
+    */
+
+
+    .landing-screen{
+    height: calc( 100vh - 50px);
+    width: 100%;
+    background-image: url(../images/background1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    .text-container{
+    width: 100%;
+    height: calc( 100vh - 50px - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+
+    .landing-screen h1{
+    width: 100%;
+    font-size: 56px;
+    margin: 0 auto;
+    color: white;
+    padding-top: 70px;
+    }
+    
+    .landing-screen p {
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    }
+    
+    .learn-btn{
+    background-color: #ed0000;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 12px;
+    border-radius: 15px;
+    transition: ease-in-out all 0.2s;
+    }
+    
+    .learn-btn:hover{
+    background-color: #b30000;
+    }
+    
+    .landing-screen hr{
+    margin-top: 20px;
+    }
+    
+    
+    /*
+    --------------------------------------------------------
+    LANDING SCREEN ICONS
+    --------------------------------------------------------
+    */
+
+
+    
+    .landing-icons{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .landing-icons ul{
+    list-style: none;
+    color: white;
+    }
+    
+    .landing-icons ul{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .landing-icons ul li+li{
+    margin-left: 10px;
+    }
+    
+    .landing-icons ul li a i{
+    font-size: 22px;
+    cursor: pointer;
+    }
+    
+    .landing-icons ul li a{
+    transition: all ease-in-out 0.2s;
+    }
+    
+    .landing-icons ul li a:hover{
+    color: #ed0000;
+    }
+    
+
+    
+    /*
+    --------------------------------------------------------
+    SECOND CONTENT INFO
+    --------------------------------------------------------
+    */
+    
+
+
+    .content2{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    }
+    
+    .content2-container{
+    width: 65%;
+    margin: 0 auto;
+    }
+    
+    .content2-container p{
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .content2 .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    }
+    
+    .content-img{
+    height: 250px;
+    width: 360px;
+    }
