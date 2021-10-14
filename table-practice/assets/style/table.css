@@ -1,0 +1,95 @@
+/* -----------------------------------------
+    Title section
+------------------------------------------*/
+
+body{
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.landing-container {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.landing-container h2{
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.landing-container p{
+    color: #ababab;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* -----------------------------------------
+    Table content
+------------------------------------------*/
+
+/* container div that contains table */
+.table{
+    width: 100%;
+    margin: 0 auto;
+    }
+
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+    }
+
+table, th, td{
+border:none;
+}
+
+th{
+text-align: left;
+padding: 11px;
+border-bottom: grey 1px solid;
+font-size: 14px;
+color: #c4c4c4;
+}
+
+td {
+text-align: left;
+padding: 11px;
+border-bottom: grey 1px solid;
+padding: 8px;
+font-size: 14px;
+letter-spacing: 0.5px;
+}
+
+table i{
+    color: #61c230;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+/* -----------------------------------------
+    Table header sizing
+------------------------------------------*/
+
+th:nth-child(1){
+width: 1%;
+}
+
+th:nth-child(2){
+width: 45%;
+
+}
+
+th:nth-child(3){
+width: 35%;
+}
+
+th:nth-child(4){
+width: 18%;
+}
+
+th:nth-child(5){
+width: 1%;
+}
