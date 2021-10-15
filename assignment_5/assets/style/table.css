@@ -68,7 +68,6 @@
     border-radius: 5px;
     }
     
-    
     /* -----------------------------------------
     elements in table
     ------------------------------------------*/
@@ -93,6 +92,7 @@
     text-decoration: none;
     transition: 0.2s ease-in-out;
     }
+
     table tr td a:hover{
     color: #999999;
     background-color: #171717;
