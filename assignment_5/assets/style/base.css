@@ -20,7 +20,7 @@ p, a, li, label, input, textarea, div, span{
 
 .container{
     position: relative;
-    width: 70%;
+    width: 75%;
     max-width: 1080px;
     margin: 0 auto;
 }

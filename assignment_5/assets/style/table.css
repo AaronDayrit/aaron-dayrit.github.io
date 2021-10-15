@@ -1,0 +1,156 @@
+    /* -----------------------------------------
+    Title section
+    ------------------------------------------*/
+
+    body{
+    background-color: #1f1f1f;
+    color: white;
+    }
+    
+    .landing-container {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    }
+    
+    .landing-container h2{
+    font-weight: 900;
+    letter-spacing: 2px;
+    }
+    
+    .landing-container p{
+    color: #ababab;
+    font-size: 14px;
+    letter-spacing: 1px;
+    }
+    
+    /* -----------------------------------------
+    Table content
+    ------------------------------------------*/
+    
+    /* container div that contains table */
+    .table{
+    width: 100%;
+    margin: 0 auto;
+    }
+    
+    table {
+    width: 100%;
+    /* removes gap between each section */
+    border-collapse:separate;
+    border-spacing:0 15px;
+    }
+    
+    table, th, td{
+    border:none;
+    }
+    
+    th{
+    text-align: left;
+    font-size: 13px;
+    
+    /* border-bottom: grey 1px solid; */
+    color: #c4c4c4;
+    }
+    
+    td {
+    text-align: left;
+    background-color: #2b2b2b;
+    padding: 12px 0;
+    font-size: 14.5px;
+    letter-spacing: 0.5px;
+    }
+    
+    tr+tr{
+    box-shadow: 5px 5px 2px #1e1e1e;
+    border-radius: 5px;
+    }
+    
+    
+    /* -----------------------------------------
+    elements in table
+    ------------------------------------------*/
+    
+    .profile{
+    font-size: 16px;
+    text-align: center;
+    background-color: red;
+    width: 35px;
+    padding-top: 5.5px;
+    height: 35px;
+    border-radius: 100%;
+    margin: 0 auto;
+    }
+    
+    table tr td a{
+    color:#bfbfbf;
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    }
+    table tr td a:hover{
+    color: #999999;
+    background-color: #171717;
+    }
+    
+    /* -----------------------------------------
+    profile icons
+    ------------------------------------------*/
+    
+    .one{
+    background-color: #aa84f0;
+    color:#ebe4f7;
+    }
+    
+    .two{
+    background-color: #51cf76;
+    color: #dcfae5;
+    }
+    
+    .three{
+    background-color: #d4d647;
+    color: #f7f7e6;
+    }
+    
+    .four{
+    background-color: #e87043;
+    color: #fae0d7;
+    }
+    
+    .five{
+    background-color: #03949e;
+    color: #c0edf0;
+    }
+    
+    /* -----------------------------------------
+    Table header, data percentage sizing
+    ------------------------------------------*/
+    
+    th:nth-child(1), td:nth-child(1){
+    width: 8%;
+    }
+    
+    th:nth-child(2), td:nth-child(2){
+    width: 25%;
+    }
+    
+    th:nth-child(3), td:nth-child(3){
+    width: 18%;
+    }
+    
+    th:nth-child(4), td:nth-child(4){
+    width: 18%;
+    }
+    
+    th:nth-child(5), td:nth-child(5){
+    width: 18%;
+    }
+    
+    th:nth-child(6), td:nth-child(6){
+    width: 13%;
+    }
