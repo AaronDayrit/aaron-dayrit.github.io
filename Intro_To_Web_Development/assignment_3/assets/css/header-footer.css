@@ -61,6 +61,13 @@
     cursor: default;
     }
 
+    nav ul li a{
+    transition: 0.2s;
+    }
+
+    nav ul li a:hover{
+    opacity: 0.6;
+    }
 
     
     /*
