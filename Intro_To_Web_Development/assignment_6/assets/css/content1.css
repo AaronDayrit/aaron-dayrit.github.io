@@ -1,0 +1,99 @@
+    
+        
+    /*
+    --------------------------------------------------------
+    MAIN COLUMNS AND ROWS STYLING
+    --------------------------------------------------------
+    */
+    
+    .content1{
+    padding: 40px 0 0 20px;
+    }
+    
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    }
+    
+    .col {
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+    }
+    
+    
+    .col-content {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 20px 48px 0 rgba(203, 207, 212, .15);
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .col-content img{
+    height: 270px;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    }
+    
+    /*
+    --------------------------------------------------------
+    MEDIA QUERIES
+    --------------------------------------------------------
+    */
+    
+    
+    @media screen and (min-width: 320px){
+    .container, .row-container{
+    max-width: 400px;
+    }
+    
+    .col-lg-3{
+    flex: 0 0 100%;
+    max-width: 370px;
+    margin: 0 auto;
+    }
+    }
+    
+    @media screen and (min-width: 580px){
+    
+    
+    .container, .row-container{
+    max-width: 650px;
+    }
+    
+    
+    .col-lg-3{
+    flex: 0 0 100%;
+    max-width: 380px;
+    margin: 0 auto;
+    }
+    
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+    .container, .row-container{
+    max-width: 800px;
+    }
+    
+    .col-lg-3{
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
+    }
+    
+    
+    @media screen and (min-width: 1024px){
+    .container, .row-container{
+    max-width: 1140px;
+    }
+    
+    .col-lg-3{
+    flex: 0 0 25%;
+    }
+    }
