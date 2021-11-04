@@ -1,0 +1,64 @@
+    
+    /*
+    --------------------------------------------------------
+    Article section
+    --------------------------------------------------------
+    */
+
+    .content-2{
+    height: 650px;
+    background-image: url(../../images/white-room.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center
+    }
+    
+    
+    /*
+    --------------------------------------------------------
+    Hero banner for article section
+    --------------------------------------------------------
+    */
+
+    .landing-screen2 .container{
+    width: 70%;
+    }
+    
+    .landing-screen2 .container .text-container{
+    width: 100%;
+    height: calc(650px - 60px - 50px);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    margin-left: 50px;
+    }
+    
+    .landing-screen2 h2{
+    margin-top: 40px;
+    width: 100%;
+    font-size: 68px;
+  
+    color: #26343d;
+    margin-bottom: 0px;
+    }
+    
+    .landing-screen2 .lrn-btn{
+    background-color: #26343d;
+    color: #e6e6e8;
+    }
+    
+    .landing-screen2 .lrn-btn:hover{
+    background-color: rgba(38, 52, 61, 0.65);
+    color: white;
+    }
+    
+    .landing-screen2 p {
+    width: 100%;
+    color: #26343d;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: -5px;
+    margin-bottom: 40px;
+    }

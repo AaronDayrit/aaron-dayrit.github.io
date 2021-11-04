@@ -1,0 +1,52 @@
+    
+    /*
+    --------------------------------------------------------
+    INITIAL LANDING SCREEN OF PAGE
+    --------------------------------------------------------
+    */
+
+    .landing-screen{
+    height: calc(100vh - 130px);
+    width: 100%;
+    background-image: url(../../images/landing2.jpg);
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    }
+    
+    .landing-screen .container .text-container{
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+    
+    
+    .landing-screen h1{
+    width: 100%;
+    font-size: 80px;
+    letter-spacing: 10px;
+    margin: 0 auto;
+    margin-top: -40px;
+    color: #26343d;
+    margin-bottom: 0px;
+    text-align: center;
+    }
+
+    .landing-screen p{
+        font-size: 17.5px;
+
+        color: #26343d;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+
+    
+    

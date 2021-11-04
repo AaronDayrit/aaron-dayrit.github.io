@@ -1,0 +1,175 @@
+   
+    /*
+    --------------------------------------------------------
+    About me section
+    --------------------------------------------------------
+    */
+
+
+
+   main{
+       height: calc(100vh - 40px);
+    
+   }
+
+   .form-container{
+       width: 600px;
+       margin: 0 auto;
+   }
+   
+
+
+   
+   .contact-title{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    
+    
+    justify-content: center;
+    }
+    
+    .title-container{
+    text-align: center;
+    color: #595f69;
+    margin-top: 25px;
+    }
+    
+    .title-container h2{
+    font-size: 48px;
+    }
+    
+    .title-container p{
+    font-size: 17px;
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    }
+    
+    .line{
+    width: 70%;
+    margin: 0 auto;
+    height: 20px;
+    border-bottom: 1px solid #616161;
+    }
+
+
+
+
+
+
+
+   
+    /* --------------------------------------------------
+    Form-styling
+    ----------------------------------------------------*/
+    
+    .form{
+    
+        width: 100%;
+        height: 100%;
+        
+        margin-top: -20px;
+        border-radius: 10px;
+        padding: 25px;
+        
+        
+        }
+        
+        .form h3{
+        font-weight: 550;
+        font-size: 34px;
+        
+        color: #616161;
+        margin-bottom: 20px;
+        text-align: center;
+        }
+        
+        .form p{
+        margin-top: 4px;
+        font-size: 16px;
+        font-weight: 480;
+        }
+        
+        .form form{
+        margin-top: 15px;
+        width: 480px;
+        font-size: 0;
+    
+        height: 100%;
+        width: 100%;
+        
+        }
+        
+        input{
+        width: 100%;
+        height: 40px;
+        padding: 0 25px;
+        background-color: #f5f1e9;
+ 
+        border-radius: 2px;
+        font-size: 16.5px;
+        font-weight: 400;
+        display: block;
+        border-radius: 50px;
+        font-weight: 550;
+        margin: 0 auto;
+        margin-bottom: 15px;
+
+
+        }
+
+        input::placeholder{
+            color: #8f9294;;
+        }
+
+        .message-holder textarea::placeholder{
+            color: #8f9294;;
+        }
+        
+        
+        .message-holder{
+        width: 100%;
+        }
+        .message-holder textarea{
+        width: 100%;
+        height: 170px;
+        font-size: 15.5px;
+        margin: 0 auto;
+        margin-top: 10px;
+        border-radius: 15px;
+        padding-top: 13px;
+        padding-left: 25px;
+        background-color: #f5f1e9;
+        font-weight: 550;
+        }
+        
+        .submit{
+        margin-top: 25px;
+        height: 47px;
+        background-color: #ebe6da;
+        color: #797c80;
+        font-size: 15.6px;
+        font-weight: 600;
+        transition: 0.2s ease-in-out;
+        cursor: pointer;
+        width: 165px;
+        margin-right: 100%;
+        border-radius: 8px;
+        letter-spacing: 3px;
+        
+        
+        }
+        
+        .submit:hover{
+           color: #646970;
+        background-color: #d1ccbe;
+        }
+
+
+
+
+
+
+
+
