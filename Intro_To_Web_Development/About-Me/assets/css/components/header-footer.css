@@ -10,7 +10,7 @@
     overflow: hidden;
     position: relative;
     height: 60px;
-    cursor: pointer;
+
     }
     
     header .container{
@@ -30,6 +30,7 @@
     /* background-color: #ebe6da; */
     text-align: center;
     transition: 0.2s ease-in-out;
+    cursor: pointer;
     }
 
     .title:hover{
