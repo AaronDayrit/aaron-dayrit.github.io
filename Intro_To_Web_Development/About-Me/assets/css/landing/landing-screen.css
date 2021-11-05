@@ -48,5 +48,85 @@
     }
 
 
+
+
+
+
+     /*
+    --------------------------------------------------------
+    Media Queries
+    --------------------------------------------------------
+    */
+
+     
+        
+        @media screen and (min-width: 320px){
+            .landing-screen .container{
+                width: 100%;
+            }
+
+            .landing-screen h1{
+                font-size: 40px;
+                letter-spacing: 7px;
+
+                }
+            
+                .landing-screen p{
+                    font-size: 15.5px;
+                }
+        }
+        
+        
+        
+        
+        @media screen and (min-width: 580px){
+            .landing-screen .container{
+                width: 90%;
+            }
+
+            .landing-screen h1{
+                font-size: 52px;
+                letter-spacing: 8px;
+ 
+                }
+            
+                .landing-screen p{
+                    font-size: 16px;
+       
+                }
+    
+        
+  
+        }
+        
+        
+        @media screen and (min-width: 768px) and (max-width: 1024px){
+            .landing-screen h1{
+                font-size: 63px;
+                letter-spacing: 9.5px;
+                }
+            
+                .landing-screen p{
+                    font-size: 17px;
+       
+                }
+        }
+        
+        
+        @media screen and (min-width: 1024px){
+            .landing-screen .container{
+                width: 80%;
+            }
+
+            .landing-screen h1{
+                font-size: 80px;
+                letter-spacing: 10px;
+                }
+            
+                .landing-screen p{
+                    font-size: 17.5px;
+                }
+        
+        }
     
     

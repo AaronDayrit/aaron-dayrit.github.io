@@ -115,8 +115,7 @@
     Media Queries
     --------------------------------------------------------
     */
-    
-    /* removes nav to display hamburger menu */
+ 
     @media screen and (min-width: 320px){
     
     .landing-screen h1{

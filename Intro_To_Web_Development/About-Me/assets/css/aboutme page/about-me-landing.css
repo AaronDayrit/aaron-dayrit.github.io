@@ -34,41 +34,23 @@
         font-size: 70px;
         letter-spacing: 10px;
         margin: 0 auto;
-        margin-top: -90px;
         color: #26343d;
-        margin-bottom: 0px;
         text-align: center;
-            margin-bottom: 5px;
+            margin-bottom: -34px;
         }
-    
-        
-        .landing-screen h3{
-            width: 100%;
-            font-size: 70px;
-            letter-spacing: 10px;
-            margin: 0 auto;
-            margin-top: -40px;
-            color: #26343d;
-            margin-bottom: 0px;
-            text-align: center;
-            margin-left: 35px;
-            margin-bottom: 5px;
+
+        .landing-screen h2:nth-child(1){
+            margin-top: -130px;
             }
 
-                    
-        .landing-screen h4{
-            width: 100%;
-            font-size: 70px;
-            letter-spacing: 10px;
-            margin: 0 auto;
-            margin-top: -40px;
-            color: #26343d;
-            margin-bottom: 0px;
-            text-align: center;
-            margin-left: 70px;
-            margin-bottom: 5px;
+            .landing-screen h2:nth-child(2){
+               margin-left: 30px;
+                }
+                .landing-screen h2:nth-child(3){
+                    margin-left: 60px;
+                    }
     
-            }
+        
     
         
 
@@ -220,18 +202,253 @@
         
         
         
+
+        /*
+    --------------------------------------------------------
+    Media Queries
+    --------------------------------------------------------
+    */
+
+     
         
-        
-        @media screen and (min-width: 1024px){
+    @media screen and (min-width: 320px){
+        .text-container .text{
+            margin-left: -38px;
+        }
+
+        .landing-screen h2{
+            font-size: 30px;
+            margin-bottom: -14px;
+            }
+    
+            .landing-screen h2:nth-child(1){
+                margin-top: -100px;
+                }
+    
+                .landing-screen h2:nth-child(2){
+                   margin-left: 30px;
+                    }
+                    .landing-screen h2:nth-child(3){
+                        margin-left: 60px;
+                        }
+    }
+
+    
+    @media screen and (min-width: 580px){
+        .landing-screen h2{
+            font-size: 42px;
+            margin-bottom: -21px;
+            }
+    
+            .landing-screen h2:nth-child(1){
+                margin-top: -100px;
+                }
+    
+                .landing-screen h2:nth-child(2){
+                   margin-left: 30px;
+                    }
+                    .landing-screen h2:nth-child(3){
+                        margin-left: 60px;
+                        }
+    }
+    
+    
+    @media screen and (min-width: 768px) {
+        .landing-screen h2{
+            font-size: 60px;
+            margin-bottom: -29px;
+            }
+    
+            .landing-screen h2:nth-child(1){
+                margin-top: -130px;
+                }
+    
+                .landing-screen h2:nth-child(2){
+                   margin-left: 30px;
+                    }
+                    .landing-screen h2:nth-child(3){
+                        margin-left: 60px;
+                        }
+    }
+    
+    
+    @media screen and (min-width: 1024px){
+        .landing-screen h2{
+            font-size: 70px;
+            margin-bottom: -34px;
+            }
+    
+            .landing-screen h2:nth-child(1){
+                margin-top: -130px;
+                }
+    
+                .landing-screen h2:nth-child(2){
+                   margin-left: 30px;
+                    }
+                    .landing-screen h2:nth-child(3){
+                        margin-left: 60px;
+                        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+    
+    @media screen and (min-width: 320px){
         .container, .row-container{
-        max-width: 1140px;
+                 max-width: 400px;
+                 }  
+     
+                 .col-lg-3{
+                     flex: 0 0 100%;
+                     }
+     
+                 .col-delete{
+                     display: none;
+                 }
+     
+                           
+         .content-1 .text-container{
+             width: 320px;
+         }
+         }
+         
+     
+     
+     
+     
+         @media screen and (min-width: 580px){
+     
+             .container, .row-container{
+                 max-width: 650px;
+                 }
+     
+                 .col-lg-3{
+                     flex: 0 0 100%;
+                     }
+     
+                 .col-delete{
+                     display: none;
+                 }
+                 
+                 .content-1 .text-container{
+                     width: 370px;
+                 }
+         }
+     
+     
+     
+     
+         @media screen and (min-width: 768px) and (max-width: 1024px){
+             .container, .row-container{
+                 max-width: 800px;
+                 }
+                 
+                 .col-lg-3{
+                 flex: 0 0 100%;
+                 }
+             
+                 .col-delete{
+                     display: none;
+                 }
+     
+                 
+         .content-1 .text-container{
+             width: 400px;
+         }
+         }
+         
+         @media screen and (min-width: 1024px){
+         .container, .row-container{
+         max-width: 1140px;
+         }
+         
+         .col-lg-3{
+         flex: 0 0 50%;
+         }
+     
+         .col-delete{
+             display: block;
+         }
+     
+         .content-1 .text-container{
+             width: auto;
+         }
+     
+         .content-1 .text-container{
+             margin: 20px;
+         }
+         }
+
+
+
+
+
+
+
+
+
+         
+    @media screen and (min-width: 320px){
+        .landing-screen2 .text-container .text{
+            width: 250px;
+            margin: 0 auto;
         }
-        
-        .col-lg-3{
-        flex: 0 0 50%;
+    }
+
+    
+    @media screen and (min-width: 580px){
+        .landing-screen2 .text-container .text{
+            width: 280px;
+            margin: 0 auto;
         }
+   
+    }
+    
+    
+    @media screen and (min-width: 768px) {
+        .landing-screen2 .text-container .text{
+            width: 320px;
+            margin: 0 auto;
         }
+    }
+    
+    
+    @media screen and (min-width: 1024px){
+        .landing-screen2 .text-container .text{
+            width: 360px;
+            margin: 0 auto;
+        }
+    }
+
+
+
+
+
+
+
+
         
         
         
     
+
+
+
+     

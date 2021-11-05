@@ -46,7 +46,7 @@
                 font-size: 36px;
                 letter-spacing: 10px;
                 margin: 0 auto;
-                margin-top: -40px;
+                margin-top: -41px;
                 color: #26343d;
                 margin-bottom: 12.5px;
                 margin-left: 40px;
@@ -57,7 +57,7 @@
                     font-size: 80px;
                     letter-spacing: 10px;
                     margin: 0 auto;
-                    margin-top: -40px;
+                    margin-top: -41px;
                     color: #26343d;
                     margin-left: 80px;
                     }
@@ -137,4 +137,171 @@
 
     article .text-container:last-child{
         margin-bottom: 80px;
+    }
+
+
+
+
+
+
+
+
+
+    @media screen and (min-width: 320px){
+        .img-container img{
+            height: 250px;
+            width: 480px;
+
+        }
+
+        article .text-container{
+            width:90%;
+        }
+    }
+
+    
+    @media screen and (min-width: 580px){
+        .img-container img{
+            height: 260px;
+            width: 500px;
+
+        }
+
+        article .text-container{
+            width:80%;
+        }
+    }
+    
+    
+    @media screen and (min-width: 768px) {
+        .img-container img{
+            height: 330px;
+            width: 620px;
+        }
+
+        article .text-container{
+            width:60%;
+        }
+    }
+    
+    
+    @media screen and (min-width: 1024px){
+        .img-container img{
+            height: 380px;
+            width: 700px;
+        }
+
+        article .text-container{
+            width:60%;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+    @media screen and (min-width: 320px){
+        .landing-screen h2{
+            font-size: 22.5px;
+           margin-top: -40px;
+          margin-bottom: 31px;
+           }
+   
+      
+   
+               .landing-screen h4{
+                   font-size: 18px;
+                   margin-top: -41px;
+                   margin-bottom: 17.5px;
+                   margin-left: 40px;
+                   }
+   
+                   .landing-screen h5{
+                       font-size: 36px;
+                       margin-top: -30.5px;
+                       margin-left: 80px;
+                       }
+    }
+
+    
+    @media screen and (min-width: 580px){
+        .landing-screen h2{
+            font-size: 32px;
+           margin-top: -40px;
+          margin-bottom: 29px;
+           }
+   
+      
+   
+               .landing-screen h4{
+                   font-size: 22px;
+                   margin-top: -41px;
+                   margin-bottom: 17.5px;
+                   margin-left: 40px;
+                   }
+   
+                   .landing-screen h5{
+                       font-size: 49px;
+                       margin-top: -34px;
+                       margin-left: 80px;
+                       }
+    }
+    
+    
+    @media screen and (min-width: 768px) {
+        .landing-screen .container{
+            width: 80%;
+        }
+
+        .landing-screen h2{
+            font-size: 40px;
+           margin-top: -40px;
+          margin-bottom: 24px;
+           }
+   
+      
+   
+               .landing-screen h4{
+                   font-size: 26px;
+                   margin-top: -41px;
+                   margin-bottom: 17.5px;
+                   margin-left: 40px;
+                   }
+   
+                   .landing-screen h5{
+                       font-size: 68px;
+                       margin-top: -41px;
+                       margin-left: 80px;
+                       }
+
+    }
+    
+    
+    @media screen and (min-width: 1024px){
+          
+        .landing-screen h2{
+             font-size: 60px;
+            margin-top: -40px;
+           margin-bottom: 17.5px;
+            }
+    
+       
+    
+                .landing-screen h4{
+                    font-size: 36px;
+                    margin-top: -41px;
+                    margin-bottom: 12.5px;
+                    margin-left: 40px;
+                    }
+    
+                    .landing-screen h5{
+                        font-size: 80px;
+                        margin-top: -41px;
+                        margin-left: 80px;
+                        }
     }
