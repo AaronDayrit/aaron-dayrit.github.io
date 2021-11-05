@@ -13,7 +13,7 @@
    }
 
    .form-container{
-       width: 600px;
+       width: 90%;
        margin: 0 auto;
    }
    
@@ -41,7 +41,7 @@
     
     .title-container p{
     font-size: 17px;
-    width: 700px;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     }
@@ -130,6 +130,7 @@
         
         .message-holder{
         width: 100%;
+        margin: 0 auto;
         }
         .message-holder textarea{
         width: 100%;
@@ -142,6 +143,7 @@
         padding-left: 25px;
         background-color: #f5f1e9;
         font-weight: 550;
+
         }
         
         .submit{
@@ -171,5 +173,73 @@
 
 
 
+
+
+
+
+
+        
+    /*
+    --------------------------------------------------------
+    MEDIA QUERIES
+    --------------------------------------------------------
+    */
+    
+    
+    @media screen and (min-width: 320px){
+        .container{
+            width: 90%;
+        }
+        
+        
+        .title-container p{
+        font-size: 16px;
+            
+        
+        line-height: 21px;
+        margin-bottom: -5px;
+        }
+
+        }
+        
+        @media screen and (min-width: 580px){
+     
+            .container{
+                width: 80%;
+            }
+        
+        
+        .title-container p{
+        font-size: 16px;
+
+        line-height: 21px;
+        margin-bottom: -5px;
+        }
+        }
+        
+        
+        @media screen and (min-width: 768px) and (max-width: 1024px){
+            .container{
+                width: 75%;
+            }
+        }
+        
+        @media screen and (min-width: 1024px){
+        
+        input, .message-holder{
+            width: 70%;
+           
+        }
+
+            
+        
+        .title-container p{
+        font-size: 17px;
+        width: 100%;
+        
+        line-height: 21px;
+        margin-bottom: -5px;
+        }
+        }
 
 
