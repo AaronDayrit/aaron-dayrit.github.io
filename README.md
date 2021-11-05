@@ -8,3 +8,6 @@
 
 
 [assignment_6](https://aarondayrit.github.io/aaron-dayrit.github.io/Intro_To_Web_Development/assignment_6/index.html)
+
+
+[Blog Website](https://aarondayrit.github.io/aaron-dayrit.github.io/Intro_To_Web_Development/About-Me/index.html)
