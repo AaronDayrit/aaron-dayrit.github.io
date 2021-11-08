@@ -1,31 +1,25 @@
-   
+    
     /*
     --------------------------------------------------------
-    About me section
+    PAGE SIZING AND STYLING
     --------------------------------------------------------
     */
 
-
-
-   main{
-       height: calc(100vh - 40px);
+    main{
+    height: calc(100vh - 40px);
+    }
     
-   }
 
-   .form-container{
-       width: 90%;
-       margin: 0 auto;
-   }
-   
+    /*
+    --------------------------------------------------------
+    TITLE SECTION
+    --------------------------------------------------------
+    */
 
-
-   
-   .contact-title{
+    .contact-title{
     height: 170px;
     width: 100%;
     display: flex;
-    
-    
     justify-content: center;
     }
     
@@ -52,206 +46,191 @@
     height: 20px;
     border-bottom: 1px solid #616161;
     }
-
-
-
-
-
-
-
-   
-    /* --------------------------------------------------
-    Form-styling
-    ----------------------------------------------------*/
     
-    .form{
-    
-        width: 100%;
-        height: 100%;
-        
-        margin-top: -20px;
-        border-radius: 10px;
-        padding: 25px;
-        
-        
-        }
-        
-        .form h3{
-        font-weight: 550;
-        font-size: 34px;
-        
-        color: #616161;
-        margin-bottom: 20px;
-        text-align: center;
-        }
-        
-        .form p{
-        margin-top: 4px;
-        font-size: 16px;
-        font-weight: 480;
-        }
-        
-        .form form{
-        margin-top: 15px;
-        width: 480px;
-        font-size: 0;
-    
-        height: 100%;
-        width: 100%;
-        
-        }
-        
-        input{
-        width: 100%;
-        height: 40px;
-        padding: 0 25px;
-        background-color: #f5f1e9;
-        border-radius: 2px;
-        font-size: 15.5px;
-        letter-spacing: 0px;
-        font-weight: 400;
-        display: block;
-        border-radius: 50px;
-        font-weight: 550;
-        margin: 0 auto;
-        margin-bottom: 15px;
-        color: #7f8285;
 
-        }
-
-        input::placeholder{
-            color: #8f9294;
-            letter-spacing: 2px;
-        }
-
-        .message-holder textarea::placeholder{
-            color: #8f9294;
-            letter-spacing: 2px;
-        }
-        
-        
-        .message-holder{
-        width: 100%;
-        margin: 0 auto;
-        }
-        .message-holder textarea{
-        width: 100%;
-        height: 170px;
-        font-size: 15.5px;
-        margin: 0 auto;
-        margin-top: 10px;
-        border-radius: 15px;
-        padding-top: 13px;
-        padding-left: 25px;
-        background-color: #f5f1e9;
-        font-weight: 550;
-        letter-spacing: 0px;
-
-        }
-        
-        .submit{
-        margin-top: 25px;
-        height: 47px;
-        background-color: #ebe6da;
-        color: #797c80;
-        font-size: 15.6px;
-        font-weight: 600;
-        transition: 0.2s ease-in-out;
-        cursor: pointer;
-        width: 165px;
-        margin-right: 100%;
-        border-radius: 8px;
-        letter-spacing: 3px;
-        
-        
-        }
-        
-        .submit:hover{
-           color: #646970;
-        background-color: #d1ccbe;
-        }
-
-
-
-
-
-
-
-
-
-
-
-        
     /*
     --------------------------------------------------------
-    MEDIA QUERIES
+    FORM STYLING
     --------------------------------------------------------
     */
     
+    .form-container{
+    width: 90%;
+    margin: 0 auto;
+    }
+        
+    .form{
+    width: 100%;
+    height: 100%;
+    margin-top: -20px;
+    border-radius: 10px;
+    padding: 25px;
+    }
     
+    .form h3{
+    font-weight: 550;
+    font-size: 34px;
+    color: #616161;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    .form p{
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: 480;
+    }
+    
+    .form form{
+    margin-top: 15px;
+    width: 480px;
+    font-size: 0;
+    height: 100%;
+    width: 100%;
+    
+    }
+
+    /*
+    --------------------------------------------------------
+    INPUPT AND TEXT AREA STYLING
+    --------------------------------------------------------
+    */
+    
+    input{
+    width: 100%;
+    height: 40px;
+    padding: 0 25px;
+    background-color: #f5f1e9;
+    border-radius: 2px;
+    font-size: 15.5px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    display: block;
+    border-radius: 50px;
+    font-weight: 550;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    color: #7f8285;
+    }
+    
+    input::placeholder{
+    color: #8f9294;
+    letter-spacing: 2px;
+    }
+    
+    .message-holder textarea::placeholder{
+    color: #8f9294;
+    letter-spacing: 2px;
+    }
+    
+    .message-holder{
+    width: 100%;
+    margin: 0 auto;
+    }
+    .message-holder textarea{
+    width: 100%;
+    height: 170px;
+    font-size: 15.5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding-top: 13px;
+    padding-left: 25px;
+    background-color: #f5f1e9;
+    font-weight: 550;
+    letter-spacing: 0px;
+    
+    }
+    
+    /*
+    --------------------------------------------------------
+    SUBMIT BUTTON
+    --------------------------------------------------------
+    */
+
+    .submit{
+    margin-top: 25px;
+    height: 47px;
+    background-color: #ebe6da;
+    color: #797c80;
+    font-size: 15.6px;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    width: 165px;
+    margin-right: 100%;
+    border-radius: 8px;
+    letter-spacing: 3px;
+    
+    
+    }
+    
+    .submit:hover{
+    color: #646970;
+    background-color: #d1ccbe;
+    }
+    
+    
+    /*
+    ------------------------------------------------------------------------
+    MEDIA QUERIES
+    ------------------------------------------------------------------------
+    */
+
+
     @media screen and (min-width: 320px){
         .container{
-            width: 95%;
+        width: 95%;
         }
         
         .line{
-            width: 96%;
-            }
+        width: 96%;
+        }
         
         .title-container p{
         font-size: 16px;
-            
-        
         line-height: 21px;
         margin-bottom: -5px;
         }
-
+    }
+    
+    @media screen and (min-width: 580px){
+        .container{
+        width: 90%;
         }
         
-        @media screen and (min-width: 580px){
-     
-            .container{
-                width: 90%;
-            }
-        
-            .line{
-                width: 91%;
-                }
+        .line{
+        width: 91%;
+        }
         
         .title-container p{
         font-size: 16px;
-
         line-height: 21px;
         margin-bottom: -5px;
-        }
-        }
-        
-        
-        @media screen and (min-width: 768px) and (max-width: 1024px){
-            .container{
-                width: 75%;
-            }
-
-            .line{
-                width: 76%;
-                }
+    }
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+        .container{
+        width: 75%;
         }
         
-        @media screen and (min-width: 1024px){
+        .line{
+        width: 76%;
+    }
+    }
+    
+    @media screen and (min-width: 1024px){
+        .container{
+        width: 75%;
+        }
         
-            .container{
-                width: 75%;
-            }
-
-            .line{
-                width: 70%;
-                }
+        .line{
+        width: 70%;
+        }
         input, .message-holder{
-            width: 70%;
-           
+        width: 70%;
         }
-
-            
         
         .title-container p{
         font-size: 17px;
@@ -260,6 +239,4 @@
         line-height: 21px;
         margin-bottom: -5px;
         }
-        }
-
-
+    }

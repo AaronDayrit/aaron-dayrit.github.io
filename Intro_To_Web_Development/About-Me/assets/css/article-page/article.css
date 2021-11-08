@@ -1,12 +1,12 @@
-/*
---------------------------------------------------------
-Article section
---------------------------------------------------------
-*/
+    
+    /*
+    --------------------------------------------------------
+    Article section
+    --------------------------------------------------------
+    */
 
 
-
-.landing-screen{
+    .landing-screen{
     height: calc(100vh - 130px);
     width: 100%;
     background-size: cover;
@@ -15,7 +15,6 @@ Article section
     justify-content: center;
     align-items: center;
     background-color: #f2efe9;
-    
     }
     
     .landing-screen .container .text-container{
@@ -24,13 +23,7 @@ Article section
     display: flex;
     justify-content: left;
     align-items: center;
-    
     }
-    
-
-
-
-
     
     .landing-screen h2{
     width: 100%;
@@ -40,10 +33,7 @@ Article section
     margin-bottom: -5px;
     color: #26343d;
     margin-top: -40px;
-    
     }
-    
-    
     
     .landing-screen h4{
     width: 100%;
@@ -52,8 +42,6 @@ Article section
     margin: 0 auto;
     margin-bottom: -5px;
     color: #26343d;
-
-
     }
     
     .landing-screen h5{
@@ -64,32 +52,18 @@ Article section
     color: #26343d;
     margin-bottom: -5px;
     }
-
-
-
-
-
-    
     
     .landing-screen p{
     font-size: 17px;
-    
     color: #26343d;
     font-weight: 600;
     letter-spacing: 3px;
     }
-    
-    
+   
     .landing-screen .article-info{
     font-size: 16px;
     margin-top: 90px;
-
     }
-    
-    
-    
-    
-    
     
     /*
     --------------------------------------------------------
@@ -144,109 +118,107 @@ Article section
     font-size: 22px;
     margin-top: 30px;
     }
-
+    
     article .text-container h4{
-        margin-bottom: 18px;
-        color: #606366;
-        font-size: 19px;
-        font-style: italic;
-        margin-top: -20px;
-        }
+    margin-bottom: 18px;
+    color: #606366;
+    font-size: 19px;
+    font-style: italic;
+    margin-top: -20px;
+    }
     
     article .text-container:last-child{
     margin-bottom: 80px;
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    @media screen and (min-width: 320px){
-    .img-container img{
-    height: 250px;
-    width: 480px;
-    
-    }
-    
-    article .text-container{
-    width:90%;
-    }
-    }
-    
-    
-    @media screen and (min-width: 580px){
-    .img-container img{
-    height: 260px;
-    width: 500px;
-    
-    }
-    
-    article .text-container{
-    width:80%;
-    }
-    }
-    
-    
-    @media screen and (min-width: 768px) {
-    .img-container img{
-    height: 330px;
-    width: 620px;
-    }
-    
-    article .text-container{
-    width:60%;
-    }
-    }
-    
-    
-    @media screen and (min-width: 1024px){
-    .img-container img{
-    height: 380px;
-    width: 700px;
-    }
-    
-    article .text-container{
-    width:60%;
-    }
-    }
-    
-    
-    
-    
-    
-        
-    
-    
-    
-    @media screen and (min-width: 320px){
-        .landing-screen .container{
-            width: 85%;
-            }
-    }
-    
-    
-    @media screen and (min-width: 580px){
-        .landing-screen .container{
-            width: 75%;
-            }
-    }
-    
-    
-    @media screen and (min-width: 768px) {
-    .landing-screen .container{
-    width: 75%;
-    }
-    
-    }
-    
-    
-    @media screen and (min-width: 1024px){
-        .landing-screen .container{
-            width: 80%;
-            }
+    /*
+    ------------------------------------------------------------------------
+    MEDIA QUERRIES
+    ------------------------------------------------------------------------
+    */
 
-    } 
+    /*
+    --------------------------------------------------------
+    MAIN ARTICLE SIZING
+    --------------------------------------------------------
+    */
+    
+    @media screen and (min-width: 320px){
+        .img-container img{
+        height: 250px;
+        width: 480px;
+        }
+        
+        article .text-container{
+        width:90%;
+        }
+    }
+    
+    
+    @media screen and (min-width: 580px){
+        .img-container img{
+        height: 260px;
+        width: 500px;
+        }
+        
+        article .text-container{
+        width:80%;
+        }
+    }
+    
+    
+    @media screen and (min-width: 768px) {
+        .img-container img{
+        height: 330px;
+        width: 620px;
+        }
+        
+        article .text-container{
+        width:60%;
+        }
+    }
+    
+    
+    @media screen and (min-width: 1024px){
+        .img-container img{
+        height: 380px;
+        width: 700px;
+        }
+        
+        article .text-container{
+        width:60%;
+        }
+    }
+    
+
+
+    /*
+    --------------------------------------------------------
+    LANDINGG SCReEN SIZING
+    --------------------------------------------------------
+    */
+    
+    
+    @media screen and (min-width: 320px){
+        .landing-screen .container{
+        width: 85%;
+        }
+    }
+    
+    @media screen and (min-width: 580px){
+        .landing-screen .container{
+        width: 75%;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        .landing-screen .container{
+        width: 75%;
+        }
+    }
+    
+    @media screen and (min-width: 1024px){
+        .landing-screen .container{
+        width: 80%;
+        }
+    }
