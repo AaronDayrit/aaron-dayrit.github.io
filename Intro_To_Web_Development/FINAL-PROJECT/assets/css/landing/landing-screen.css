@@ -25,7 +25,7 @@
     align-items: center;
     }
     
-    .landing-screen h1{
+    .landing-screen h2{
     width: 100%;
     font-size: 80px;
     letter-spacing: 10px;
@@ -60,7 +60,7 @@
         width: 100%;
         }
         
-        .landing-screen h1{
+        .landing-screen h2{
         font-size: 40px;
         letter-spacing: 7px;
         
@@ -76,7 +76,7 @@
         width: 90%;
         }
         
-        .landing-screen h1{
+        .landing-screen h2{
         font-size: 52px;
         letter-spacing: 8px;
         }
@@ -88,7 +88,7 @@
     
     
     @media screen and (min-width: 768px) and (max-width: 1024px){
-        .landing-screen h1{
+        .landing-screen h2{
         font-size: 63px;
         letter-spacing: 9.5px;
         }
@@ -104,7 +104,7 @@
         width: 80%;
         }
         
-        .landing-screen h1{
+        .landing-screen h2{
         font-size: 80px;
         letter-spacing: 10px;
         }
