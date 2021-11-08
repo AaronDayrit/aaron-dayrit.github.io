@@ -106,25 +106,27 @@
         height: 40px;
         padding: 0 25px;
         background-color: #f5f1e9;
- 
         border-radius: 2px;
-        font-size: 16.5px;
+        font-size: 15.5px;
+        letter-spacing: 0px;
         font-weight: 400;
         display: block;
         border-radius: 50px;
         font-weight: 550;
         margin: 0 auto;
         margin-bottom: 15px;
-
+        color: #7f8285;
 
         }
 
         input::placeholder{
-            color: #8f9294;;
+            color: #8f9294;
+            letter-spacing: 2px;
         }
 
         .message-holder textarea::placeholder{
-            color: #8f9294;;
+            color: #8f9294;
+            letter-spacing: 2px;
         }
         
         
@@ -143,6 +145,7 @@
         padding-left: 25px;
         background-color: #f5f1e9;
         font-weight: 550;
+        letter-spacing: 0px;
 
         }
         

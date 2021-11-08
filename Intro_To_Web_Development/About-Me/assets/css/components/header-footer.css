@@ -245,21 +245,29 @@
     --------------------------------------------------------
     */
     
+
+
+            
     .mobile-nav{
         overflow: hidden;
        width: 250px;
        text-align: right;
+       transition: 0.2s ease-in-out;
+        }
+
+        
+        .mobile-nav:hover{
+            opacity: 0.6;
         }
         
         .mobile-nav p i{
-            /* margin-right: 20px; */
+ 
         font-size: 25px;
         color: #595f69;
         text-decoration: none;
         cursor: pointer;
         
         }
-
 
 
 
