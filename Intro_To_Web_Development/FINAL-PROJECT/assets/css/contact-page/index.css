@@ -139,7 +139,7 @@
     background-color: #f5f1e9;
     font-weight: 550;
     letter-spacing: 0px;
-    
+    color: #7f8285;
     }
     
     /*
@@ -161,14 +161,32 @@
     margin-right: 100%;
     border-radius: 8px;
     letter-spacing: 3px;
-    
-    
     }
     
     .submit:hover{
     color: #646970;
     background-color: #d1ccbe;
     }
+
+    /*
+    --------------------------------------------------------
+    VALID CHECK FOR INPUT BOXES
+    --------------------------------------------------------
+    */
+
+    input[type="text"]:valid, [type="email"]:valid, textarea:valid{
+    background: #f5f1e9 url(../../images/valid.png) no-repeat 95% center;
+    background-size: 13px 13px;
+    outline: none;
+    }
+
+    input textarea:valid{
+    background:#f5f1e9 url(../../images/valid.png) no-repeat 95% 50% center;
+    background-size: 13px 13px;
+    outline: none;
+    }
+
+
     
     
     /*
