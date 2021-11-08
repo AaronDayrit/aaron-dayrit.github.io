@@ -9,5 +9,5 @@
 
 [assignment_6](https://aarondayrit.github.io/aaron-dayrit.github.io/Intro_To_Web_Development/assignment_6/index.html)
 
-
-[FINAL PROJECT](https://aarondayrit.github.io/aaron-dayrit.github.io/Intro_To_Web_Development/FINAL-PROJECT/index.html)
+<!-- 
+[FINAL PROJECT](https://aarondayrit.github.io/aaron-dayrit.github.io/Intro_To_Web_Development/FINAL-PROJECT/index.html) -->
