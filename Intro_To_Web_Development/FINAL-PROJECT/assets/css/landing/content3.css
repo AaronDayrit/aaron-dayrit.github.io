@@ -59,7 +59,7 @@
     
     .content2 .text-container p{
     margin-top: 7px;
-    font-size: 15.5px;
+    font-size: 16px;
     line-height: 21px;
     height: auto;
     margin-bottom: 10px;
@@ -87,6 +87,10 @@
     */
     
     @media screen and (min-width: 320px){
+        .content-3 .container{
+            width: 100%;
+        }
+
         .container, .row-container{
         max-width: 400px;
         }
@@ -99,12 +103,17 @@
         display: none;
         }
         
-        .content2 .text-container{
+        .content-3 .text-container{
         width: 320px;
+        padding: 0;
         }
     }
     
     @media screen and (min-width: 580px){
+        .content-3 .container{
+            width: 100%;
+        }
+
         .container, .row-container{
         max-width: 650px;
         }
@@ -117,30 +126,40 @@
         display: none;
         }
         
-        .content2 .text-container{
+        .content-3 .text-container{
         width: 370px;
+
         }
     }
     
-    @media screen and (min-width: 768px) and (max-width: 1024px){
+    @media screen and (min-width: 860px){
+        .content-3 .container{
+            width: 100%;
+        }
+
         .container, .row-container{
-        max-width: 800px;
+        max-width: 1000px;
         }
         
         .col-lg-3{
-        flex: 0 0 100%;
+        flex: 0 0 50%;
         }
         
         .col-delete{
-        display: none;
+        display: block;
         }
-
-        .content2 .text-container{
-        width: 400px;
+        
+        .content-3 .text-container{
+        width: 380px;
+        padding: 20px;
         }
     }
     
     @media screen and (min-width: 1024px){
+        .content-3 .container{
+            width: 80%;
+        }
+
         .container, .row-container{
         max-width: 1140px;
         }
@@ -153,11 +172,15 @@
         display: block;
         }
         
-        .content2 .text-container{
+        .content-3 .text-container{
         width: auto;
         }
         
-        .content2 .text-container{
+        .content-3 .text-container{
         margin: 20px;
+        padding: 30px;
         }
     }
+
+
+

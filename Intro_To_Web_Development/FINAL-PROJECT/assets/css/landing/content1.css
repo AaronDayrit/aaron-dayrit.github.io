@@ -70,7 +70,7 @@
     font-weight: 600;
     color: #8f9294;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15.5px;
+    font-size: 16px;
     }
     
     .content1 .text-container p + p{
@@ -113,6 +113,10 @@
     */
     
     @media screen and (min-width: 320px){
+        .content-1 .container{
+            width: 100%;
+        }
+
         .container, .row-container{
         max-width: 400px;
         }
@@ -127,10 +131,15 @@
         
         .content-1 .text-container{
         width: 320px;
+        padding: 0;
         }
     }
     
     @media screen and (min-width: 580px){
+        .content-1 .container{
+            width: 100%;
+        }
+
         .container, .row-container{
         max-width: 650px;
         }
@@ -145,29 +154,39 @@
         
         .content-1 .text-container{
         width: 370px;
+
         }
     }
 
-    @media screen and (min-width: 768px) and (max-width: 1024px){
+    @media screen and (min-width: 860px) and (max-width: 1024px){
+        .content-1 .container{
+            width: 100%;
+        }
+
         .container, .row-container{
-        max-width: 800px;
+        max-width: 1000px;
         }
         
         .col-lg-3{
-        flex: 0 0 100%;
+        flex: 0 0 50%;
         }
         
         .col-delete{
-        display: none;
+        display: block;
         }
         
         
         .content-1 .text-container{
-        width: 400px;
+        width: 380px;
+        padding: 20px;
         }
     }
     
     @media screen and (min-width: 1024px){
+        .content-1 .container{
+            width: 80%;
+        }
+
         .container, .row-container{
         max-width: 1140px;
         }
@@ -186,5 +205,6 @@
         
         .content-1 .text-container{
         margin: 20px;
+        padding: 30px;
         }
     }
