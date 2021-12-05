@@ -24,7 +24,7 @@
     .title{
     height: 100%;
     width: 250px;
-    color: #595f69;
+    color: #41464f;
     text-align: center;
     position: relative;
     text-align: center;
@@ -79,7 +79,7 @@
     width: calc(100% - 250px);
     height: 60px;
     font-size: 100%;
-    color: #595f69;
+    color: 41464f;
     display: flex;
     justify-content: right;
     }
@@ -105,7 +105,7 @@
     text-transform: none;
     cursor: pointer;
     transition: 0.15s ease-in-out;
-    color: #595f69;
+    color: #41464f;
     line-height: 60px;
     }
     
@@ -236,16 +236,18 @@
     transition: 0.2s ease-in-out;
     }
 
-    .mobile-nav:hover{
+    .mobile-nav p i:hover{
     opacity: 0.6;
     }
-    
+        
     .mobile-nav p i{
     font-size: 25px;
-    color: #595f69;
+    color: #41464f;
     text-decoration: none;
     cursor: pointer;
+    transition: ease-in-out 0.2s;
     }
+        
   
     /*
     --------------------------------------------------------

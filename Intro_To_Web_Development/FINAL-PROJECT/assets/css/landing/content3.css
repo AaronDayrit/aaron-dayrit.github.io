@@ -58,6 +58,11 @@
     color: #656769;
     }
     
+    .content2 .text-container h2{
+        color: #777a7d;
+        margin-bottom: 10px;
+    }
+
     .content2 .text-container p{
     margin-top: 7px;
     font-size: 16px;

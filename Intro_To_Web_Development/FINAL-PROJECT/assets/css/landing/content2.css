@@ -39,24 +39,23 @@
     margin-top: 40px;
     width: 100%;
     font-size: 68px;
-    
-    color: #26343d;
+    color: #41464f;
     margin-bottom: 0px;
     }
     
     .landing-screen2 .lrn-btn{
-    background-color: #26343d;
+    background-color: #41464f;
     color: #e6e6e8;
     }
     
     .landing-screen2 .lrn-btn:hover{
-    background-color: rgba(38, 52, 61, 0.65);
+    background-color: rgba(65, 70, 79, 0.65);
     color: white;
     }
     
     .landing-screen2 p {
     width: 100%;
-    color: #26343d;
+    color:#41464f;
     font-weight: 600;
     font-size: 16px;
     margin-top: -5px;
