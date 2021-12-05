@@ -90,7 +90,7 @@
     font-size: 0;
     }
     
-    ul li{
+    nav ul li{
     display: inline-block;
     }
     
@@ -125,7 +125,7 @@
     transition: 0.2s ease-in-out;
     }
     
-    .mobile-nav:hover{
+    .mobile-nav p i:hover{
     opacity: 0.6;
     }
     
@@ -134,6 +134,7 @@
     color: #595f69;
     text-decoration: none;
     cursor: pointer;
+    transition: ease-in-out 0.2s;
     }
     
 
