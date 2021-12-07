@@ -21,7 +21,7 @@
     
     .landing-screen .container .text-container{
     width: 100%;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 130px);
     display: flex;
     justify-content: center;
     align-items: center;

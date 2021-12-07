@@ -45,17 +45,18 @@
         }
         
         .title-container p{
-        font-size: 17px;
+        font-size: 18px;
         width: 100%;
         height: auto;
         margin: 0 auto;
+        /* color: #777a7d; */
         }
         
         .line{
         width: 60%;
         margin: 0 auto;
         height: 20px;
-        border-bottom: 1px solid #616161;
+        border-bottom: 1px solid #595f69;
         }
     
 
@@ -66,7 +67,6 @@
         */
 
         .article-list{
-
            margin-bottom: 80px;
         }
 
