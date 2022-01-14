@@ -22,7 +22,7 @@ celBtn.addEventListener(`click`, function(){
         celOutput.innerText = `(${input}C * 9/5) + 32 = ${Math.round(output)}F`;
     }
     else{
-        celInput.classList.toggle('error');
+
         celOutput.innerText = `(${input}) must be a valid number`;
     }
 })
@@ -39,7 +39,7 @@ ferBtn.addEventListener(`click`, function(){
         ferOutput.innerText = `(${input}F - 32) * 5/9 = ${Math.round(output)}`;
     }
     else{
-        ferInput.classList.toggle('error');
+
         ferOutput.innerText = `(${input}) must be a valid number`;
     }
 })
