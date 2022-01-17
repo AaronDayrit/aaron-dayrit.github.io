@@ -17,13 +17,14 @@ const celOutput = document.getElementById('output1')
 celBtn.addEventListener(`click`, function(){
     const input = celInput.value.trim();
     let output = 0;
-    if(Number(input)){
+    if(input === ''){
+        celOutput.innerText = `Please enter a number`;
+    } else if (isNaN(input)){
+        celOutput.innerText = `(${input}) must be a valid number`;
+    }
+     else{
         output = (input*9/5) + 32;
         celOutput.innerText = `(${input}C * 9/5) + 32 = ${Math.round(output)}F`;
-    }
-    else{
-
-        celOutput.innerText = `(${input}) must be a valid number`;
     }
 })
 
@@ -34,13 +35,15 @@ const ferOutput = document.getElementById(`output2`)
 ferBtn.addEventListener(`click`, function(){
     const input = ferInput.value.trim();
     let output = 0;
-    if(Number(input)){
+
+    if(input === ''){
+        ferOutput.innerText = `Please enter a number`;
+    } else if (isNaN(input)){
+        ferOutput.innerText = `(${input}) must be a valid number`;
+    }
+     else{
         output = (input - 32)*5/9;
         ferOutput.innerText = `(${input}F - 32) * 5/9 = ${Math.round(output)}`;
-    }
-    else{
-
-        ferOutput.innerText = `(${input}) must be a valid number`;
     }
 })
 
