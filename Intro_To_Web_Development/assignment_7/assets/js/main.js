@@ -43,7 +43,7 @@ ferBtn.addEventListener(`click`, function(){
     }
      else{
         output = (input - 32)*5/9;
-        ferOutput.innerText = `(${input}F - 32) * 5/9 = ${Math.round(output)}`;
+        ferOutput.innerText = `(${input}F - 32) * 5/9 = ${Math.round(output)}C`;
     }
 })
 
