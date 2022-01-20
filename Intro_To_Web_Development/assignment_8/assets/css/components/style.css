@@ -1,0 +1,114 @@
+    /* -----------------------------------------
+    Title section
+    ------------------------------------------*/
+
+    body{
+    background-color:#300504;
+    color: white;
+    transition: ease-in-out 0.2s;
+    }
+    body.win{
+    background-image: url(../../images/confetti.gif);
+    transition: 0.2s ease-in-out;
+    }
+    
+    main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    /* -----------------------------------------
+    elements in section
+    ---------------------------------------------*/
+    main{
+    height: calc(100vh - 50px - 45px);
+    display: flex;
+    justify-content: center;
+    }
+
+    /* -----------------------------------------
+    Calculator
+    ---------------------------------------------*/
+    .calculator{
+        /* width: 350px; */
+        background-color:#360505;
+        border-radius: 15px;
+        padding: 20px;
+        /* box-shadow: 0 0 0 1px hsla(0, 0%, 100%, 0) inset, 0 .4em 1em rgba(54, 5, 5, .4); */
+        box-shadow: 10px 15px 33px -1px rgba(20, 2, 1,0.36);
+    }
+
+    .display{
+        min-height: 85px;
+        background-color: #240302;
+        box-shadow: 5px 8px 16px -1px rgba(20, 2, 1,0.36);
+        border-radius: 15px;
+        margin-bottom: 20px;
+        padding-right: 20px;
+        list-style: none;
+        width: 290px;
+        overflow: hidden;
+
+    }
+    .output{
+        font-size: 20px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+       padding-top: 10px;
+    }
+
+    .input{
+        font-size: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        height: 50px;
+        
+    }
+    .cal-btns{
+        display: grid;
+        grid-template-columns: repeat(4, 65px);
+        grid-gap: 10px;
+    }
+
+    .cal-btns .cal-btn{
+        background-color: #400706;
+        box-shadow: 5px 8px 16px -1px rgba(20, 2, 1,0.36);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65px;
+        cursor: pointer;
+        border-radius: 12px;
+        font-size: 18px;
+        transition: 0.2s ease-in-out;
+    }
+
+
+    .cal-btn:hover{
+        background-color: #4d0909;
+    }
+    .cal-btn:nth-child(1){
+        grid-column:span 3;
+    }
+
+    .cal-btn:nth-child(15){
+        grid-column:span 2;
+    }
+
+    #c{
+        background-color:#4f9bab;
+    }
+    #c:hover{
+        background-color: #3d818f;
+    }
+
+    #equals, #multiply, #plus, #minus, #divide{
+        background-color:#915a13;
+    }
+    #equals:hover, #multiply:hover, #plus:hover, #minus:hover, #divide:hover{
+        background-color:#7a4b0d;
+    }
