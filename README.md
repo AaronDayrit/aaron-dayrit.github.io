@@ -14,9 +14,6 @@
 
 [Assignment8: HTML | CSS | JS](https://aarondayrit.github.io/aaron-dayrit.github.io/Intro_To_Web_Development/assignment_8/index.html)
 
-[Assignment9: HTML | CSS | JS](https://aarondayrit.github.io/aaron-dayrit.github.io/Intro_To_Web_Development/assignment_9/index.html)
-
-
-
+[Assignment9: HTML | CSS | JS](https://aarondayrit.github.io/aaron-dayrit.github.io/Intro_To_Web_Development/assignment_final/index.html)
 
 [FINAL PROJECT: HTML || CSS](https://aarondayrit.github.io/aaron-dayrit.github.io/Intro_To_Web_Development/FINAL-PROJECT/index.html)
