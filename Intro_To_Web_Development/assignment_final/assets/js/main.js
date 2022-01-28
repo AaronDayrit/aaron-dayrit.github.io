@@ -87,19 +87,21 @@ const $password = document.getElementById('password');
 const $login = document.getElementById('login-popup');
 const $loginOutput = document.getElementById('login-output');
 
-    $login.addEventListener('click', ()=> {
-        loginWebsite();
-        popUp.innerText = "LOGOUT"
-    });
-    
-    document.addEventListener('keydown', (event) => {
-        if(event.key==`Enter`){
-            if(popUpForm.classList.contains('visible')){
-                loginWebsite();
-                popUp.innerText = "LOGOUT"
+    if(popUp.innerText === "LOGIN"){
+        $login.addEventListener('click', ()=> {
+            loginWebsite();
+            popUp.innerText = "LOGOUT"
+        });
+        
+        document.addEventListener('keydown', (event) => {
+            if(event.key==`Enter`){
+                if(popUpForm.classList.contains('visible')){
+                    loginWebsite();
+                    popUp.innerText = "LOGOUT"
+                }
             }
-        }
-    });
+        });
+    }
 
 
 function loginWebsite(){
@@ -232,7 +234,7 @@ if(window.location.toString().includes('Intro_To_Web_Development/assignment_fina
         if (count > 3){
             $output.innerText = 'all fields are required';
         } else if (!valid) {
-            $output.innerText = 'fields in red required';
+            $output.innerText = 'fields in red are invalid';
         }else{
             $output.innerText = '';
             window.location.assign('index.html');
