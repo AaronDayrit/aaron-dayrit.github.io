@@ -1,0 +1,67 @@
+    /*
+    --------------------------------------------------------
+    header styling
+    --------------------------------------------------------
+    */
+
+    header{
+    min-width: 100%;
+    overflow: hidden;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    }
+    
+    header div{
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    /*
+    --------------------------------------------------------
+    navigation section of header
+    --------------------------------------------------------
+    */
+    
+    nav {
+    text-align: right;
+    height: 59px;
+    font-size: 100%;
+    }
+    
+    nav ul{
+    list-style: none;
+    font-size: 0;
+    }
+    
+    nav ul li{
+    display: inline;
+    line-height: 62px;
+    cursor: default;
+    }
+    
+    nav ul li a{
+    font-size: 16px;
+    color: white;
+    font-weight: 798;
+    text-decoration: none;
+    letter-spacing: .8px;
+    text-transform: none;
+    
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+    }
+    
+    nav ul li a:hover{
+    opacity: 0.6;
+    }
+
+    .home a:hover{
+    opacity: 1;
+    }
+    
+    nav ul li+ li{
+    margin-left: 30px;
+    }
+    

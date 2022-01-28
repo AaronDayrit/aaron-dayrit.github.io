@@ -1,0 +1,150 @@
+    @import "popUp.css";
+    
+    /*
+    --------------------------------------------------------
+    INITIAL LANDING SCREEN OF PAGE
+    --------------------------------------------------------
+    */
+
+    body{
+    background-color:#504d54;
+    }
+    
+    .landing-screen{
+        height: calc(100vh - 30px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .landing-screen .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /*
+    --------------------------------------------------------
+    Search form
+    --------------------------------------------------------
+    */
+
+    #search h2{
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        cursor: default;
+    }
+
+    #search input[type="text"]{
+        width: 500px;
+        margin-top: 10px;
+        height: 40px;
+        border-radius: 25px;
+        font-size: 16px;
+        color: white;
+        padding-left: 20px;
+        background: #555159;
+        box-shadow: 0 0 0 1px hsla(0, 0%, 100%, 0) inset, 0 .4em 1em rgba(47, 43, 51, .4);  
+        
+    }
+
+    #search input[type="text"]::placeholder{
+        background: #555159 url(../images/search.png) no-repeat 0px center;
+        background-size: 14px 14px;
+    }
+
+    #search input[type="text"]:focus{
+        background: #555159;
+    }
+
+
+    /*
+    --------------------------------------------------------
+    Buttons styling
+    --------------------------------------------------------
+    */
+
+    #search .button-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #search input[type="button"]{
+        width: 150px;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        color: white;
+        height: 40px;
+        font-weight: 600;
+        border-radius: 25px;
+        transition: 0.2s ease-in-out;
+        cursor: pointer;
+        box-shadow: 0 0 0 1px hsla(0, 0%, 100%, 0) inset, 0 .4em 1em rgba(47, 43, 51, .4);
+    }
+
+    #search input[type="button"]:nth-child(1){
+        color: white;
+        background-color: #413f45;
+    }
+
+    #search input[type="button"]:nth-child(1):enabled:hover{
+        background-color:  #1d825b;
+    }
+    
+    #search input[type="button"]:nth-child(2){
+        margin-left: 20px;
+        color: white;
+        background-color: #413f45;
+    }
+
+    #search input[type="button"]:nth-child(2):enabled:hover{
+        background-color: #4c7fc7;
+    }
+    
+    #search input[type="button"]:disabled{
+        background: #98959c;
+        border: none;
+        color: #c2c0c4;
+        cursor: not-allowed;
+    }
+
+    
+    
+    /*
+    --------------------------------------------------------
+    Media Queries
+    --------------------------------------------------------
+    */
+ 
+        @media screen and (min-width: 320px){
+            #search h2{
+                font-size: 42px;
+                
+            }
+            #search input[type="text"]{
+                width: 410px;
+            }
+        }
+     
+        
+        @media screen and (min-width: 580px){
+            #search h2{
+                font-size: 50px;
+            }
+            #search input[type="text"]{
+                width: 500px;
+            }
+        }
+
+        @media screen and (min-width: 720px){
+
+            #search input[type="text"]{
+                width: 600px;
+            }
+        }
+        

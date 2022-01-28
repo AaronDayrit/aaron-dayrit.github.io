@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <title>SMART SEARCH</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+
+    <link rel="shortcut icon" href="assets/images/pic1.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/header-footer.css" media="all">
+    <link rel="stylesheet" href="assets/css/base.css" media="all">
+    <link rel="stylesheet" href="assets/css/signup.css" media="all">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/img/circle-outline-64.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+
+    <link rel="icon" href="assets/images/circle-outline-64.png">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <script src="assets/js/main.js" defer></script>
+
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-----------------------------------------------------
+            NAVIGATION AND HEADER
+         ------------------------------------------------------>
+
+        <header>
+            <div class="container">
+
+                <div class="title">
+                    <!-- <h1>LITE SEARCH</h1> -->
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="signup.html">SIGN UP</a></li>
+                        <li><a id="popUp">LOGIN</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+
+
+        
+
+
+        <main>
+            <div class="overlay" id="overlay"></div>
+  
+            <form id="popup-form" class="" novalidate>
+                <i id="close" class="fas fa-times"></i>
+                <h2>LOGIN</h2>
+                <h3>ALL FIELDS WITH * ARE REQUIRED</h3>
+                   <input id="user-name" type="text" placeholder="Username*">
+                   <input id="password" type="text" placeholder="Password*">
+                   <p class="output" id="login-output"></p>
+                   <input id="login-popup" class="button" type="button" value="LOGIN">                
+                   <p id="not-member"><a href="signup.html">Don't have an account?</a> 
+            </form>
+   
+   
+
+        <!-----------------------------------------------------
+            LANDING PAGE
+         ------------------------------------------------------>
+            <div class="container">
+                <div class="form">
+                    <!-- *Removes HTML validation -->
+                    <form id="registration" class="registration" novalidate>
+                        <h2>SIGN UP</h2>
+                        <h3>ALL FIELDS WITH * ARE REQUIRED</h3>
+                        <input type="text" id="first-name" placeholder="First name *">
+                        <input type="text" id="last-name" placeholder="Last name *">
+                        <input type="text" id="age" placeholder="Age *">
+                        <input type="email" id="email" placeholder="name@email.com *">
+                        
+                        <p class="output" id="output"></p>
+
+                        <input type="button" id="signup" value="SIGN UP">
+                    </form>
+                </div>
+        
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
